@@ -1,0 +1,18 @@
+sudo ninja install
+[0/1] Installing files.
+Installing lib/libfuse3.so.3.17.2 to /usr/local/lib/x86_64-linux-gnu
+Installing symlink pointing to libfuse3.so.3.17.2 to /usr/local/lib/x86_64-linux-gnu/libfuse3.so.4
+Installing symlink pointing to libfuse3.so.4 to /usr/local/lib/x86_64-linux-gnu/libfuse3.so
+Installing util/fusermount3 to /usr/local/bin
+Installing util/mount.fuse3 to /usr/local/sbin
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/fuse.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/fuse_common.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/fuse_lowlevel.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/fuse_opt.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/cuse_lowlevel.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/include/fuse_log.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/doc/fusermount3.1 to /usr/local/share/man/man1
+Installing /home/robert_feconda/downloads/fuse-3.17.2/doc/mount.fuse3.8 to /usr/local/share/man/man8
+Installing /home/robert_feconda/downloads/fuse-3.17.2/build/libfuse_config.h to /usr/local/include/fuse3
+Installing /home/robert_feconda/downloads/fuse-3.17.2/build/meson-private/fuse3.pc to /usr/local/lib/x86_64-linux-gnu/pkgconfig
+Running custom install script '/home/robert_feconda/downloads/fuse-3.17.2/util/install_helper.sh /usr/local/etc /usr/local/bin /lib/udev/rules.d true /etc/init.d/'
