@@ -62,5 +62,5 @@ SecureNoteFS/                          # ← your repo root, likely in
 │   └─ test_tar_manager.cpp           # Ensure tar/gunzip logic works
 │
 └─ extras/                            # (optional) scripts, sample data, tutorial files
-    └─ bigbrother.c                   # reference passthrough example you studied
+    └─ bigbrother.c                   # reference passthrough example
 

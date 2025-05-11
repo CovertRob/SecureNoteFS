@@ -59,3 +59,11 @@ endif()
 file(GLOB_RECURSE SECURENOTEFS_SOURCES CONFIGURE_DEPENDS
      "src/*.cpp" "src/*.cxx" "src/*.cc")
 ~~~
+
+## Using `extern "C"`
+
+- Putting a function in an `extern "C"` block simple tells the C++ compiler to compile and emit those funtions with C linkage (no name mangling), so that the C-based FUSE library can find them by their plain symbol  names
+
+- However, inside the function definitions you can still use C++ code features such as `std::string` and `std::vector`
+
+- Mainly just need to be careful with throwing exceptions. If one escapes the function that the FUSE C libary calls, the program will crash
